@@ -57,7 +57,7 @@ function install_node() {
 
     echo $DAWNUSERNAME:$DAWNPASSWORD > password.txt
 
-    wget -O dawn.py https://raw.githubusercontent.com/b1n4he/DawnAuto/main/dawn.py
+    wget -O dawn.py https://raw.githubusercontent.com/kutu48/Dawn/refs/heads/main/dawn.py
     # Memperbarui dan menginstal perangkat lunak yang diperlukan
     sudo apt update && sudo apt upgrade -y
     sudo apt install -y curl iptables build-essential git wget jq make gcc nano tmux htop nvme-cli pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils ncdu unzip libleveldb-dev lz4 snapd
